@@ -14,13 +14,12 @@ public class Main {
         Operation addition = new Add(1, 1);
         Operation subtraction = new Subtract(2, 4);
         Operation multiplication = new Multiply(5, 3);
-        Operation division = new Divide(6, 0);
+        Operation division = new Divide(6, 2);
 
         System.out.println(calculator.evaluate(addition));
         System.out.println(calculator.evaluate(subtraction));
         System.out.println(calculator.evaluate(multiplication));
         System.out.println(calculator.evaluate(division));
     }
-
 
 }
