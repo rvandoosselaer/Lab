@@ -4,6 +4,7 @@ package com.rvandoosselaer.lab.calculator;
  * Usage of records to store data and only data.
  * Validate the data at the boundaries -> {@link Divide}
  * Record matching and pattern matching -> {@link Calculator#evaluate(Operation)}
+ * Use sealed interface to limit the Operation implementations and to omit using default in the switch statement
  */
 public class Main {
 
