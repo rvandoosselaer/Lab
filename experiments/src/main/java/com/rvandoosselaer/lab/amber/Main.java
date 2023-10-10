@@ -1,4 +1,4 @@
-package com.rvandoosselaer.lab.calculator;
+package com.rvandoosselaer.lab.amber;
 
 /**
  * Usage of records to store data and only data.

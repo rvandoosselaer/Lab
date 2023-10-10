@@ -1,4 +1,4 @@
-package com.rvandoosselaer.lab.calculator;
+package com.rvandoosselaer.lab.amber;
 
 public record Divide(double first, double second) implements Operation {
 

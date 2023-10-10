@@ -1,4 +1,4 @@
-package com.rvandoosselaer.lab.calculator;
+package com.rvandoosselaer.lab.amber;
 
 public record Add(double first, double second) implements Operation {
 }

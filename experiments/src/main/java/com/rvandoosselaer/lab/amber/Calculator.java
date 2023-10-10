@@ -1,7 +1,6 @@
-package com.rvandoosselaer.lab.calculator;
+package com.rvandoosselaer.lab.amber;
 
 public class Calculator {
-
     public double evaluate(Operation operation) {
         return switch (operation) {
             case Add(var first, var second) -> first + second;

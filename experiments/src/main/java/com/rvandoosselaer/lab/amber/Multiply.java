@@ -1,4 +1,4 @@
-package com.rvandoosselaer.lab.calculator;
+package com.rvandoosselaer.lab.amber;
 
 public record Multiply(double firs, double second) implements Operation {
 }
